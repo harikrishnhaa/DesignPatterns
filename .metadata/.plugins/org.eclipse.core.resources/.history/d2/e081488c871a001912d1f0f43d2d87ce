@@ -1,0 +1,11 @@
+package com.dp.abstractFactory;
+
+public class VegPizzaMaker extends PizzaMaker {
+
+	@Override
+	protected Pizza makePizza(String typeOfPizza) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

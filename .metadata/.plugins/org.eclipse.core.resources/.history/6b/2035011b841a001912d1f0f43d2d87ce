@@ -1,0 +1,11 @@
+package com.dp.abstractFactory;
+
+public class VegPizza extends Pizza {
+
+	@Override
+	void makePizza() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

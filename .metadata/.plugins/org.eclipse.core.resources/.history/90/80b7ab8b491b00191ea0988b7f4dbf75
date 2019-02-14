@@ -1,0 +1,29 @@
+package com.dp.Builder;
+
+public class Robot implements RobotPlan {
+
+	@Override
+	public void setRobotHead(String robotHead) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setRobotArms(String robotArms) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setRobotLegs(String robotLegs) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setRobotBody(String robotBody) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

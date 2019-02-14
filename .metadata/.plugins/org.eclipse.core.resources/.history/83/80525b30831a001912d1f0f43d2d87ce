@@ -1,0 +1,11 @@
+package com.dp.abstractFactory;
+
+public abstract class Pizza {
+	
+	private String name;
+	
+	PizzaFlavour pizzaFlavour;
+	
+	PizzaTopping pizzaTopping;
+
+}

@@ -1,0 +1,19 @@
+package com.dp.abstractFactory;
+
+public class NonVegPizza extends Pizza {
+	
+	NonVegPizzaFactory nonVegPizzaFactory;
+	
+	public NonVegPizza(NonVegPizzaFactory nonVegPizzaFactory) {
+		// TODO Auto-generated constructor stub
+		this.nonVegPizzaFactory = nonVegPizzaFactory;
+	}
+
+	@Override
+	void makePizza() {
+		// TODO Auto-generated method stub
+		System.out.println("Making Pizza :"+ getName());
+
+	}
+
+}
